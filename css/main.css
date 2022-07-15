@@ -1,0 +1,120 @@
+body {
+  background-color:darkslateblue;
+  color: black;
+  height: 100vh;
+  width: 100vh;
+}
+
+.Logo {
+  position: absolute;
+  left: 45%;
+  top: 7%;
+}
+
+.container {  
+  display: grid;
+  position: relative;
+  margin-left: 35%;
+  top: 25vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+  ". . ."
+  ". One ."
+  ". . .";
+}
+
+.One {  
+  border: solid black 1px;
+  padding: 100px;
+  position: relative;
+  margin-left: 50%;
+  width: 35vh;
+}
+
+.Two {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 100%;
+}
+
+.Sign-In {
+  position:relative;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 200%;
+}
+
+.Email {
+  position:relative;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+.Password {
+  position:relative;
+  align-self: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+.Forgot {
+  position:relative;
+  align-self: center;
+  margin-left: 65%;
+  margin-top: -12%;
+}
+
+.Continue {
+  position:relative;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  top: 15%;
+}
+
+.Help {
+  position:relative;
+  margin-right: -10%;
+}
+
+.New {
+  border-bottom: 1px solid black;
+  position: relative;
+  color: darkgray;
+  width: 200%;
+  top: 2%;
+  right: 65%;
+}
+
+.Create {
+  padding: 5px;
+  border-bottom: 1px solid black;
+  position:relative;
+  right: 235%;
+  top: 5%;
+}
+
+.Links {
+  position:relative;
+  align-self: center;
+  width: 500%;
+  right: 150%;
+  top: 10%; 
+}
+
+.Copyright {
+  position:relative; 
+  align-self: center;
+  width: 500%;
+  right: 185%;
+  top: 14%; 
+}
